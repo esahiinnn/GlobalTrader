@@ -31,8 +31,8 @@ Feature:Company Seller olarak Sub Domain text box'ina unique bir sub domain giri
       And Kullanici Company Name textbox'ina "e_company_name" valid bir data girer
       And Kullanici Company Mobile textbox'ina "e_company_mobile" valid bir data girer
       And Kullanici Company Address textbox'ina "e_company_address" valid bir data girer
-      And Kullanici Name textbox'ina "e_name2" valid bir data girer
-      And Kullanici Email textbox'ina "e_email" valid bir data girer
+      And Kullanici Name textbox'ina "e_name" valid bir data girer
+      And Kullanici Email textbox'ina "e_email2" valid bir data girer
       And Kullanici Sub Domain textbox'ina "e_sub_domain" valid ve unique bir data girer
       And Kullanici Mobile Number textbox'ina "e_mobile2" valid bir data girer
       And Kullanici Country dropdown'undan "e_country" valid bir country secer
