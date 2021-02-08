@@ -12,6 +12,6 @@ public class EGlobalTraderHomePage {
     }
 
     @FindBy(xpath = "//*[text()=' Seller Join Now']")
-    static public WebElement sellerJoinNowButton;
+    public WebElement sellerJoinNowButton;
 
 }
