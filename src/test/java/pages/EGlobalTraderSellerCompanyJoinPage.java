@@ -44,15 +44,21 @@ public class EGlobalTraderSellerCompanyJoinPage {
     @FindBy(xpath = "(//input[@type='text'])[8]")
     public WebElement cityTextBox;
 
-    @FindBy(id = "zip_code_input")
+    @FindBy(xpath = "(//textarea)[2]")
     public WebElement addressTextBox;
 
     @FindBy(xpath = "(//input[@type='text'])[9]")
     public WebElement postalCodeTextBox;
+
+    @FindBy(xpath = "(//select)[3]")
+    public WebElement categoriesDropDown;
 
     @FindBy(id = "password")
     public WebElement passwordTextBox;
 
     @FindBy(xpath = "(//button[@type='submit'])[2]")
     public WebElement registrationButton;
+
+    @FindBy(xpath = "(//p[@class='text-center'])[2]")
+    public WebElement confirmMessage;
 }
