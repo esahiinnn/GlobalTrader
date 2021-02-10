@@ -16,7 +16,7 @@ public class UGlobalTraderAgentSellerPage {
     @FindBy(xpath = "//*[text()=' Seller Join Now']")
     public WebElement sellerJoinNowButton;
 
-    @FindBy(id = "id=vender_type")
+    @FindBy(xpath = "//input[@value='A']")
     public WebElement agentSellerRadioButton;
 
     @FindBy(id="vender_name")
@@ -52,8 +52,14 @@ public class UGlobalTraderAgentSellerPage {
     @FindBy(id = "password")
     public WebElement passwordBox;
 
-    @FindBy(className = "btn btn-lg btn-warning")
-    public WebElement registrationBox;
+    @FindBy(xpath = "//button[@value='Login']")
+    public WebElement registrationButton;
+
+    @FindBy(xpath = "//*[text()='Thank you to join our team. You are Registered Successfully.']")
+    public WebElement successfullyMesaji;
+
+    @FindBy(id = "alert_email_address")
+    public WebElement pleaseMesaji;
 
 
 

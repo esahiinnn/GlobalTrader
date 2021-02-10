@@ -1,7 +1,6 @@
-Feature: Bir_Agent_Seller_olarak_Email_textbox'ina_gecerli_bir_email_girerek_kayit_olunabilmeli.
 
-  Background: Kullanici GlobalTrader home page e gider
-
+Feature: US_003_Bir_Agent_Seller_olarak_Email_textbox'ina_gecerli_bir_email_girerek_kayit_olunabilmeli.
+@valid
   Scenario: TC001_Iceriginde_en_az_bir_karakterden_olusan_kullanici_ismi,@_sembolu,
   domain_name,_top_level_domain_name_olan_bir_email_Email_textbox'a_girildiginde_kayit_basarili_bir-sekilde_gerceklesmeli.
 
