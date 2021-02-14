@@ -23,7 +23,7 @@ public class SubDomainAgenstsellerPage {
     @FindBy(id= "email")
     public WebElement emailTextBox ;
 
-    @FindBy(id = "sub_domain")
+    @FindBy(id="sub_domain")
     public WebElement subdomainTextBox ;
 
     @FindBy(id = "vender_mobile")
