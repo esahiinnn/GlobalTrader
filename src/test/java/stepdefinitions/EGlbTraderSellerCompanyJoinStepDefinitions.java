@@ -11,7 +11,7 @@ import pages.EGlobalTraderSellerCompanyJoinPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class EGlbTraderSellerCompanyJoinStepDefinitions {
+public class  EGlbTraderSellerCompanyJoinStepDefinitions {
 
     EGlobalTraderHomePage eHomePage = new EGlobalTraderHomePage();
     EGlobalTraderSellerCompanyJoinPage eJoinPage = new EGlobalTraderSellerCompanyJoinPage();

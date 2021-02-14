@@ -5,7 +5,7 @@ Feature: US005_SubDomain_Agenstseller
     Then Yukarda bulunan Seller Join Now butonuna basar
     Then Agent Seller butonunu secer
     And Name textboxina "sd_name1"  girer
-    And Email textboxina "sd_mail1" girer
+    And Email textboxina "sd_email1" girer
     And Sub Domain textboxina "sd_subdomain" girer
     And Mobile Number textboxina "sd_number1" girer
     And Country dropdownundan "sd_country" secer
@@ -25,7 +25,7 @@ Feature: US005_SubDomain_Agenstseller
     Then Yukarda bulunan Seller Join Now butonuna basar
     Then Agent Seller butonunu secer
     And Name textboxina "sd_name2"  girer
-    And Email textboxina "sd_mail2" girer
+    And Email textboxina "sd_email2" girer
     And Sub Domain textboxina "sd_subdomain" girer
     And Mobile Number textboxina "sd_number2" girer
     And Country dropdownundan "sd_country" secer
